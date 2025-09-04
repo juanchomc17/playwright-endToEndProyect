@@ -1,14 +1,14 @@
 import { test } from "@playwright/test"
 import { v4 as uuidv4 } from 'uuid' ;
-import { ProductPage } from "../page-objects/ProductPage"
-import { Navigation } from "../page-objects/Navigation"
-import { CheckoutPage } from "../page-objects/CheckoutPage"
-import { MyAccountPage } from "../page-objects/MyAccountPage"
-import { RegisterPage } from "../page-objects/RegisterPage"
-import { DeliveryDetailsPage } from "../page-objects//DeliveryDetailsPage";
-import { deliveryDetails } from "../data/deliveryDetails";
-import { PaymentPage } from "../page-objects/Paymentpage";
-import { creditCardPayment } from "../data/creditCardPayment";
+import { ProductPage } from "../page-objects/ProductPage.js"
+import { Navigation } from "../page-objects/Navigation.js"
+import { CheckoutPage } from "../page-objects/CheckoutPage.js"
+import { MyAccountPage } from "../page-objects/MyAccountPage.js"
+import { RegisterPage } from "../page-objects/RegisterPage.js"
+import { DeliveryDetailsPage } from "../page-objects//DeliveryDetailsPage.js";
+import { deliveryDetails } from "../data/deliveryDetails.js";
+import { PaymentPage } from "../page-objects/Paymentpage.js";
+import { creditCardPayment } from "../data/creditCardPayment.js";
 
 
 test("New user full end to end test journey", async ({ page }) => {

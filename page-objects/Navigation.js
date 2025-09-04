@@ -1,4 +1,4 @@
-import { isDesktopViewport } from "./../utilities/isDesktopViewport"
+import { isDesktopViewport } from "../utilities/isDesktopViewport.js"
 
 export class Navigation {
     
