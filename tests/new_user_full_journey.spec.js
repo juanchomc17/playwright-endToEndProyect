@@ -7,7 +7,7 @@ import { MyAccountPage } from "../page-objects/MyAccountPage.js"
 import { RegisterPage } from "../page-objects/RegisterPage.js"
 import { DeliveryDetailsPage } from "../page-objects//DeliveryDetailsPage.js";
 import { deliveryDetails } from "../data/deliveryDetails.js";
-import { PaymentPage } from "../page-objects/Paymentpage.js";
+import { PaymentPage } from "../page-objects/PaymentPage.js";
 import { creditCardPayment } from "../data/creditCardPayment.js";
 
 
