@@ -1,7 +1,7 @@
 import { test } from "@playwright/test"
-import { AccountPage } from "./../page-objects/AccountPage"
-import { getLoginToken } from "./../api-calls/getLoginToken"
-import { adminDetails } from "./../data/userCredentials"
+import { AccountPage } from "../page-objects/AccountPage"
+import { getLoginToken } from "../api-calls/getLoginToken"
+import { adminDetails } from "../data/userCredentials"
 
 
 test("My Account using cookie injection ", async ({ page }) => {
